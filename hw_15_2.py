@@ -3,7 +3,6 @@ import logging
 import sys
 
 
-
 logger = logging.getLogger("not_important")
 formatter = logging.Formatter("%(levelname)s (%(asctime)s) [%(filename)s].%(name)s: %(message)s")
 

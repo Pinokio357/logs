@@ -5,7 +5,6 @@ import argparse
 python ./hw_15_3.py 42 5
 """
 
-
 parser =argparse.ArgumentParser("homework parser")
 parser.add_argument("nums", type=int, nargs="*", metavar="N",
                     help="введите загадываемое число и количество попыток(оба числа должны быть целыми положительными)")

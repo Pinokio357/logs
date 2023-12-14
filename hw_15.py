@@ -30,4 +30,3 @@ for elem in data:
     if isinstance(elem, str):
         logger.info(f"{elem} - это строка \nпорядковый номер: {i}\nадрес в памяти: {id(elem)}\n"
                         f"размер в памяти: {sys.getsizeof(elem)}\nхэш объекта: {hash(elem)}\n")
-
